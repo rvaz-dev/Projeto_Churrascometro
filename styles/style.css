@@ -75,7 +75,7 @@
 }
 
 .icon{
-    height: 15px;
+    height: 20px;
 }
 
 .tituloCategoria{
@@ -154,6 +154,6 @@ label > input:checked {
         
     }
     .icon{
-        height: 15px;
+        height: 20px;
     }
 }
