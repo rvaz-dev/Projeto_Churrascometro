@@ -149,18 +149,17 @@ label > input:checked {
     .calcContainer{
         float:none;
         margin: auto;
-        margin-left: 15%;
+        margin-left: 13%;
         width: 80%;
         
     }
     .icon{
-        height: 20px;
-        -moz-transform: scale(2.5);
+        height: 30px;
     }
 }
 @media screen and (max-width: 380px){
     .calcContainer{
-        margin-right: 5%;
+        margin-left: 5%;
     }
 }
 @media screen and (max-width: 325px){
