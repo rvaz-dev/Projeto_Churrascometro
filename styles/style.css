@@ -143,5 +143,6 @@ label > input:checked {
 @media screen and (max-width: 425px){
     .calcContainer{
         float:none;
+        margin: 10%;
     }
 }
