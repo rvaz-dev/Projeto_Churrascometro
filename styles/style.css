@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #3f3f3f;
+    background-image: url("../images/icons/bgImage.svg");
+    background-size: auto;
+    overflow: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.calcContainer{
+    float: right;
+    max-width: 300px;
+    margin: 2%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(206, 10, 59, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 15px;
+    border-radius: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #7d7e7d;
+}
+
+.image{
+    fill: whitesmoke;
+    width: 100px;
+}
+
+.convidado{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#duracao{
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.campoCategoria{
+    margin: auto;
+    margin: 15px 0% 0px 25%;
+}
+
+#categoriaAcompanhamentos{
+    margin: auto;
+    margin: 15px 0% 0px 15%;
+}
+
+.icon{
+    width: 15%;
+}
+
+.tituloCategoria{
+    font-size: 20px;
+    padding: 2px 0px 2px 0px;
+    margin: 5px 0px 2px 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 80%;
+    color: whitesmoke;
+    transform: translate(5px, -7px);
+}
+
+.categoria{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    color: whitesmoke;
+}
+
+.item{
+    display: inline-flex;
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0px 5px 0px 7px;
+    cursor: pointer;
+}
+
+label> input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid #f1335d;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #535554;
+    cursor: pointer;
+  }
+
+label > input:checked {
+    border: 1px solid #535554;
+    background-color: #f1335d;
+}
+
+
+#calcular{
+    text-align: center;
+    margin: 15px 30% 5px 30%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: #535554;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#resultado{
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}

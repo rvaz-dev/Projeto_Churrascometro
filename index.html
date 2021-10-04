@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Churrascometro</title>
+</head>
+<body>
+    <div class="container">   
+        <div class="calcContainer">
+            <div class="titulo">
+                <img class="image" src="./images/icons/barbecue.svg" alt="Barbecue Icon">
+                <h1>Churrascometro</h1>
+            </div>
+            <input class="convidado" id="homens" name="homens" type="number" placeholder="Homens">
+            <input class="convidado" id="mulheres" name="mulheres" type="number" placeholder="Mulheres">
+            <input class="convidado" id="criancas" name="criancas" type="number" placeholder="Criancas">
+            <input class="convidado" id="vegetarianos" name="vegetarianos" type="number" placeholder="Vegetarianos">
+            <input id="duracao" name="duracao" type="number" placeholder="Duracao (Horas)" d>
+            <div class="categoria">
+                <div class="campoCategoria">
+                    <img class = icon src="./images/icons/steak.svg" alt="Steak Icon" href="https://iconscout.com/icons/steak">
+                    <p class="tituloCategoria">Carnes</p>
+                </div>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="picanha">Picanha</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="fraldinha">Fraldinha</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="maminha">Maminha</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="costelaBovina">Costela Bovina</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="contraFile">Contra File</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="alcatra">Alcatra</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="fileMignon">File Mignon</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="linguica">Linguica</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="asa">Asa de Frango</label>
+                <label for="item"><input class="item" type="checkbox" name="carne" value="coxa">Coxa de Frango</label>
+            </div>
+            <div class="categoria">
+                <div id="categoriaAcompanhamentos">
+                    <img class="icon" src="./images/icons/bread.svg" alt="Bread Icon">
+                    <p class="tituloCategoria">Acompanhamentos</p>
+                </div>
+                <label for="item"><input class="item" type="checkbox" name="acompanhamento" value="arroz">Arroz</label>
+                <label for="item"><input class="item" type="checkbox" name="acompanhamento" value="paoDeAlho">Pao de Alho</label>
+                <label for="item"><input class="item" type="checkbox" name="acompanhamento" value="vinagrete">Vinagrete</label>
+                <label for="item"><input class="item" type="checkbox" name="acompanhamento" value="queijoCoalho">Queijo Coalho</label>
+                <label for="item"><input class="item" type="checkbox" name="acompanhamento" value="farofa">Farofa</label>
+                <label for="item"><input class="item" type="checkbox" name="acompanhamento" value="maionese">Maionese</label>
+            </div>
+            <div class="categoria">
+                <div class="campoCategoria">
+                    <img class="icon" src="./images/icons/vegetable.svg" alt="Broccoli Icon">
+                    <p class="tituloCategoria">Vegetais</p>
+                </div>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="abobrinha">Abobrinha</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="cebola">Cebola</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="tomate">Tomate</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="beringela">Beringela</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="cogumelo">Cogumelo</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="pimentao">Pimentao</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="cenoura">Cenoura</label>
+                <label for="item"><input class="item" type="checkbox" name="vegetal" value="brocolis">Brocolis</label>
+            </div>
+            <div class="categoria">
+                <div class="campoCategoria">
+                    <img class="icon" src="./images/icons/beer.svg" alt="Beer Icon">
+                    <p class="tituloCategoria">Cerveja</p>
+                </div>
+                <label for="item"><input class="item" type="checkbox" name="cerveja" value="regular">Regular</label>
+                <label for="item"><input class="item" type="checkbox" name="cerveja" value="artesanal">Artesanal</label>
+            </div>
+            <div class="categoria">
+                <div class="campoCategoria">
+                    <img class="icon" src="./images/icons/soda.svg" alt="Soda Icon">
+                    <p class="tituloCategoria">Bebidas</p>
+                </div>
+                <label for="item"><input class="item" type="checkbox" name="bebida" value="refrigerante">Refrigerante</label>
+                <label for="item"><input class="item" type="checkbox" name="bebida" value="suco">Suco</label>
+                <label for="item"><input class="item" type="checkbox" name="bebida" value="agua">Agua</label>
+            </div>
+            <button id="calcular" onclick="calcular()">CALCULAR</button>
+
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
