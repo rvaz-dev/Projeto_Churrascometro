@@ -144,6 +144,7 @@ label > input:checked {
     .calcContainer{
         float:none;
         margin: 20%;
+        width: 80%;
         
     }
 }
