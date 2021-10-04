@@ -160,12 +160,12 @@ label > input:checked {
 }
 @media screen and (max-width: 375px){
     .calcContainer{
-        margin-right: 5%;
+        margin-right: 25%;
     }
 }
 @media screen and (max-width: 425px){
     .calcContainer{
-        margin-right: 0%;
+        margin-right: 30%;
 
     }
 }
