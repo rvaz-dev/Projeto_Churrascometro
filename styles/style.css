@@ -16,7 +16,7 @@
 .calcContainer{
     float: right;
     max-width: 300px;
-    margin: 2%;
+    margin: 10%;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(206, 10, 59, 0.55);
