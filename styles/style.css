@@ -153,4 +153,7 @@ label > input:checked {
         width: 80%;
         
     }
+    .icon{
+        height: 15px;
+    }
 }
