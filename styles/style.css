@@ -155,6 +155,6 @@ label > input:checked {
     }
     .icon{
         height: 20px;
-        -moz-transform: scale(1.5);
+        -moz-transform: scale(2.5);
     }
 }
