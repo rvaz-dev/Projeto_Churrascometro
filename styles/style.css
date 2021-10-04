@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    -moz-transform: scale(1.0); /* Moz-browsers */
 }
 
 .container{
