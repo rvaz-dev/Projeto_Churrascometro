@@ -60,12 +60,14 @@
 }
 
 .campoCategoria{
+    width: 100%;
     margin: auto;
     margin: 15px 0% 0px 25%;
 }
 
 #categoriaAcompanhamentos{
     margin: auto;
+    width: 100%;
     margin: 15px 0% 0px 15%;
 }
 
