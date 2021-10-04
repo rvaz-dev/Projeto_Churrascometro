@@ -62,6 +62,7 @@
 
 .campoCategoria{
     width: 100%;
+    box-sizing: border-box;
     margin: auto;
     margin: 15px 0% 0px 25%;
 }
@@ -69,6 +70,7 @@
 #categoriaAcompanhamentos{
     margin: auto;
     width: 100%;
+    box-sizing: border-box;
     margin: 15px 0% 0px 15%;
 }
 
